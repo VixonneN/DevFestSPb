@@ -9,7 +9,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.EvgenyShishkinActivity">
+        </activity>
+        <activity android:name=".activity.RuslanKalbaevActivity">
+        </activity>
+        <activity android:name=".activity.AlexanderEfremenkovActivity">
+        </activity>
+        <activity android:name=".activity.ArturVasilovActivity">
+        </activity>
+        <activity android:name=".activity.RMR_Activity">
+        </activity>
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
