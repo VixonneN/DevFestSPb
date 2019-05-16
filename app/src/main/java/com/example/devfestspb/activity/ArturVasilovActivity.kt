@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import com.example.devfestspb.R
+import com.example.devfestspb.lectures_activity.ArturVasilovProfile
 
 class ArturVasilovActivity : AppCompatActivity() {
 
@@ -14,8 +15,6 @@ class ArturVasilovActivity : AppCompatActivity() {
         setContentView(R.layout.activity_artur_vasilov)
         buttonAllReport()
         buttonSchedule()
-        Toast.makeText(this, "15:25", Toast.LENGTH_SHORT).show()
-
     }
 
     private fun buttonAllReport(){
@@ -28,7 +27,10 @@ class ArturVasilovActivity : AppCompatActivity() {
 
     private fun buttonSchedule(){
         val scheduleButton = findViewById<Button>(R.id.schedule_of_reports_ArturVasilov)
-        scheduleButton.setOnClickListener { Toast.makeText(this, "Тут что то должно быть", Toast.LENGTH_SHORT).show() }
+        scheduleButton.setOnClickListener {
+            val AVprofile = Intent(this, ArturVasilovProfile::class.java)
+            startActivity(AVprofile)
+        }
     }
 
 }

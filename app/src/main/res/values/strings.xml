@@ -12,7 +12,7 @@
         особенностях языка, и как использовать её во время обработки аннотаций.
     </string>
     <string name="button_all_reports">Следующий доклад</string>
-    <string name="schedule_of_reports">Все доклады</string>
+    <string name="schedule_of_reports">О докладчике</string>
 
     <string name="name_rmr">Нашёл. Увидел. Запилил</string>
     <string name="lecturer_rmr">Konstantin Tskhovrebov</string>
@@ -59,4 +59,41 @@
         часть проблемы и одно из ее практических решений.
     </string>
 
+    <string name="mobile_consultant">Mobile Consultant</string>
+    <string name="digital_nomand_russia">Digital Nomand, Russia</string>
+    <string name="description_work_sergey">
+        <![CDATA[Currently Sergey is an independent Android Engineer and Consultant with the background in backend dev. Co-organiser of the first Kotlin User Group in Russia and Android Academy in St. Petersburg and Moscow, usually speaks about Kotlin & Android. Kotlin early adopter, digital nomad.]]></string>
+
+    <string name="room_1">Room 1</string>
+    <string name="time_11_15">11:15</string>
+    <string name="data">27 november</string>
+    <string name="work_AE">System Android developer at Yandex.Taxi</string>
+    <string name="moscow_russia">Moscow, Russia</string>
+    <string name="description_AE_prifile">Пишу код, смотрю в Android.</string>
+    <string name="_12_25">12:25</string>
+    <string name="senior_android_developer_at">Senior Android Developer at Яндекс</string>
+    <string name="st_petersburg_russia">St. Petersburg, Russia</string>
+    <string name="description_ArturVasilov">Android Developer with over five years of professional experience and love
+        of creating extremely high-quality apps with perfect UI / UX and optimizations. Working at Yandex. GDG Leader.
+    </string>
+    <string name="_15_25">15:25</string>
+    <string name="android_developer_at_aviasales">Android Developer at Aviasales</string>
+    <string name="description_ES">Android-разработчик с опытом более 8 лет. Адаптировал телефоны LG под российский
+        рынок, разрабатывал умного ассистента в i-Free и амбициозный аудиогид izi.TRAVEL. В 2016 году присоеденился к
+        команде Aviasales, где разрабатывает приложение Hotellook для поиска лучших цен на отели. Автор популярных
+        android open-source проектов (RobotoTextView, AppMsg, ProgressFragment, Snowfall, MultiBackStack и т.д.)
+    </string>
+    <string name="_16_35">16:35</string>
+    <string name="senior_developer_at_redmadrobot">Senior Developer at Redmadrobot</string>
+    <string name="description_Konstantin">Graduated from SPBGPU, Konstantin used to be fond of microcontrollers and
+        circuitry. He has started coding for android platform since 2.2 version had been released. Today, Kostya is an
+        architect in the St. Petersburg team Redmadrobot.
+    </string>
+    <string name="_17_45">17:45</string>
+    <string name="android_developer_at_redmadrobot">Android Developer at Redmadrobot</string>
+    <string name="description_RK">Разрабатываю под Android чуть больше 4-х лет. Исследую и решаю сложные технические
+        задачи. Закончил Томский государственный университет, факультет информатики. Адепт кафедры программной
+        инженерии.
+    </string>
+    <string name="_13_35">13:35</string>
 </resources>
