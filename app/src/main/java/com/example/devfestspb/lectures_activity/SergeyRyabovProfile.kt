@@ -10,4 +10,5 @@ class SergeyRyabovProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sergey_ryabov_profile)
     }
+
 }

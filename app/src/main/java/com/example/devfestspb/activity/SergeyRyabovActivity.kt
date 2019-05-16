@@ -6,8 +6,11 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.devfestspb.R
 import com.example.devfestspb.lectures_activity.SergeyRyabovProfile
+import com.example.devfestspb.network.NetworkModule
 
 class SergeyRyabovActivity : AppCompatActivity() {
+
+//    val networkModule : NetworkModule
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,5 +33,9 @@ class SergeyRyabovActivity : AppCompatActivity() {
             val SRPActivity = Intent(this, SergeyRyabovProfile::class.java)
             startActivity(SRPActivity)
         }
+    }
+
+    private fun network(){
+        networkModule.api().searchResponse().enqueue()
     }
 }
